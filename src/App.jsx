@@ -1,6 +1,15 @@
 
 import "./App.css";
 
+import tacosImg from "./assets/tacos.png";
+import quesabirriaImg from "./assets/quesabirria.png";
+import quesatacoImg from "./assets/quesataco.png";
+import platoImg from "./assets/plato.png";
+import tortaImg from "./assets/torta.png";
+import porkiloImg from "./assets/porkilo.png";
+
+
+
 const NEGOCIO = {
   nombre: "TACOS LOS PRIMOS",
   lema: "Barbacoa de res estilo Tierra Caliente",
@@ -15,42 +24,42 @@ const menu = [
     nombre: "Tacos de barbacoa",
     descripcion:
       "Tacos de Barbacoa de res con tortilla hecha a mano de Maiz, acompañada de cebolla, cilantro, adobo y salsa verde.",
-    imagen: "src/assets/tacos.png",
+    imagen: tacosImg,
     precio: "$22.00",
   },
   {
     nombre: "Quesabirria",
     descripcion:
       "Quesabirria de Barbacoa de res con tortilla hecha a mano de Maiz, acompañada de cebolla, cilantro, adobo y salsa verde.",
-    imagen: "src/assets/quesabirria.png",
+    imagen: quesabirriaImg,
     precio: "$45.00",
   },
   {
     nombre: "QuesaTaco",
     descripcion:
       "QuesaTaco de Barbacoa de res con dos tortillas hechas a mano de Maiz, acompañada de cebolla, cilantro, adobo y salsa verde.",
-    imagen: "src/assets/quesataco.png",
+    imagen: quesatacoImg,
     precio: "$25.00",
   },
   {
     nombre: "Plato de barbacoa",
     descripcion:
       "Plato de Barbacoa de res con tortilla hecha a mano de Maiz, acompañada de cebolla, cilantro, adobo y salsa verde.",
-    imagen: "src/assets/plato.png",
+    imagen: platoImg,
     precio: "$130.00",
   },
   {
     nombre: "Torta",
     descripcion:
       "Torta de Barbacoa de res con rico pan de leña, acompañada de cebolla, cilantro, adobo y salsa verde.",
-    imagen: "src/assets/torta.png",
+    imagen: tortaImg,
     precio: "$40.00",
   },
   {
     nombre: "Barbacoa por kilo",
     descripcion:
       "Perfecta para compartir con familia y amigos. Con la carne de su elección, ya sea Surtida o Maciza. Acompañada con cebolla, cilantro, adobo y salsa verde aparte. Se vende por la porcion que guste. Si desea que lleve consome igualmente se le puede agregar. O comprar el consome aparte. El litro de consome cuesta $20.00.",
-    imagen: "src/assets/porkilo.png",
+    imagen: porkiloImg,
     precio: "$460.00 el kilo",
   },
 ];
