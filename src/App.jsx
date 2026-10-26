@@ -7,6 +7,7 @@ import quesatacoImg from "./assets/quesataco.png";
 import platoImg from "./assets/plato.png";
 import tortaImg from "./assets/torta.png";
 import porkiloImg from "./assets/porkilo.png";
+import logoImg from "./assets/logo.png";
 
 
 
@@ -80,7 +81,7 @@ function App() {
       <header className="navbar">
         <a href="#inicio" className="marca">
           <img
-            src="/src/assets/logo.png"
+            src={logoImg}
             alt={`Logotipo de ${NEGOCIO.nombre}`}
             className="logo"
           />
@@ -199,7 +200,7 @@ function App() {
         <section className="destacado">
           <div className="destacado-imagen">
             <img
-              src="/src/assets/logo.png"
+              src={logoImg}
               alt={`Conoce ${NEGOCIO.nombre}`}
               loading="lazy"
             />
@@ -273,7 +274,7 @@ function App() {
 
       <footer className="footer">
         <a href="#inicio" className="marca marca-footer">
-          <img src="/src/assets/logo.png" alt="" className="logo" />
+          <img src={logoImg} alt="" className="logo" />
           <span>{NEGOCIO.nombre}</span>
         </a>
 
