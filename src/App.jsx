@@ -94,14 +94,7 @@ function App() {
           <a href="#ubicacion">Ubicación</a>
         </nav>
 
-        <a
-          className="boton boton-nav"
-          href={crearMensaje()}
-          target="_blank"
-          rel="noreferrer"
-        >
-          Contactanos para Taquizas ↗
-        </a>
+       
       </header>
 
       <main>
@@ -118,7 +111,7 @@ function App() {
 
             <p>
               Ven a disfrutar nuestros tacos de barbacoa de res,
-              preparados para compartir buenos momentos y mucho sabor.
+              preparados para compartir buenos momentos y mucho sabor. Tambien hacemos taquizas para tus eventos, contáctanos y con gusto te hacemos una cotización.
             </p>
 
             <div className="hero-botones">
